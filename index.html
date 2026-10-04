@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HOME</title>
+  <style>
+          * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+     
+       body {
+              background: gray;
+              color: black;
+              min-height: 100vh;
+              padding: 32px 5%;
+           }
+       
+        .logo {
+               font-weight: bold;
+               color: red;
+               font-size: 25px;
+           }
+  
+        header {
+          border-bottom: 2px solid white;
+        }
+  
+     nav {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           margin-bottom: 64px;
+     }
+    .nav-links a {
+              color: black;
+              text-decoration: none;
+              margin-left: 32px;
+              font-size: 14px;
+    }
+
+    .nav-links a.active {
+              color: black;
+              border-bottom: 1px solid black;
+    }
+
+       .area {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 3px;
+            flex-wrap: wrap;
+           margin: 30px 0;
+           }
+
+      .text {
+            flex: 1; min-width: 300px;
+      }
+ 
+     .welcome {
+                 color: white;
+                 font-weight: bold;
+                 font-family: Playfair display;
+                 font-size: 14px;
+                 line-height: 1.6;
+                 margin-top: -30px;
+                 margin-bottom: 30px;
+            }
+
+       h1 {
+            color: black;
+            text-align: center;
+            font-family: Georgia;
+            font-style: oblique;
+            font-size: 45px;
+            margin: 0;
+        }
+
+       h2 {
+             color: black;
+             text-align: center;
+             font-family: Georgia;
+             font-style: oblique;
+             font-size: 45px;
+             margin: 0;
+        }
+  
+      .p2 {
+             color: black;
+             line-height: 1.6;
+             font-size: 14px;
+             margin-top: 10px;
+             margin-bottom: 40px;
+          }
+ 
+    .buttons a {
+             display: inline-block;
+             padding: 11px 24px;
+             border-radius: 32px;
+             text-decoration: none;
+             font-weight: 500;
+             margin-right: 16px;
+             margin-bottom: 16px;
+        }
+
+    .btn-1 {
+               border: 1px solid white;
+               background: red;
+               color: white;
+            }
+
+    .btn-2 {
+              border: 1px solid white;
+              color: white;
+              background: blue;
+          }
+  
+    .profile-img img {
+                  width: 300px;
+                  height: 400px;
+                  object-fit: cover;
+                  object-position: top;       
+                  position: relative;
+                  top: 0px;
+                  border: 4px solid white;     
+                  border-radius: 20px;          
+             }
+  
+       footer {
+               text-align: center;
+               margin-top: -10px;
+               padding-top: 24px;
+               color: Black;
+               font-weight: bold;
+               font-size: 15px,;
+              
+           }
+   </style>
+</head>
+
+<body>
+  <header>
+        <nav>
+             <div class="logo">JaCram.com</div>
+             <div class="nav-links">
+               
+             <a href="home.html" class="active">Home</a>
+             <a href="about.html">About Me</a>
+             <a href="portfolio.html">Portfolio</a>
+             <a href="gallery.html">Gallery</a>
+             <a href="contact.html">Contact</a>
+            
+         </div>
+       </nav>
+  </header>
+  
+  <section class="area">
+           <div class="text">
+             
+           <p class="welcome" >WELCOME TO MY PERSONAL WEBSITE</p>
+      
+           <h1 class="h1">keep</h1>      
+           <h2 class="h2">Growing with confidence.</h2>
+      
+      <p  class="p2">  I’m a Computer Science student from City College of Laguna, and this
+        is my project to present to you all. I know I’m not the best at this kind of work,
+        and I still have so much to learn. But I promise you this: I will finish it, no matter what. 
+        No matter how long it takes</p>
+      
+           <div class="buttons">
+                 <a href="#" class="btn-1">View Portfolio →</a>
+                 <a href="#" class="btn-2">View My Projects→</a>
+         </div>
+      
+         </div>
+         <div class="profile-img">
+                <img src="formal.png" alt="Profile Photo">
+          </div>
+     </section>
+
+  <hr><hr>
+  <footer>First Ever Personal Website </footer>
+
+</body>
+</html>
+
+

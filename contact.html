@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+
+    <style>
+        body {
+            margin: 0;
+            background-color: gray;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+           
+       header {
+          border-bottom: 2px solid white;
+        }
+        /* Navigation */
+        nav {
+            height: 55px;
+            border-bottom: 2px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+        }
+
+      .logo {
+      font-weight: bold;
+      color: red;
+      font-size: 25px;
+    }
+
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 12px;
+            margin-left: 25px;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: white;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+        }
+
+        /* Contact */
+        .contact {
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .contact h1 {
+            color: black;
+            font-size: 25px;
+            margin-bottom: 8px;
+        }
+
+        .contact > p {
+            color: #9296aa;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        /* Form Box */
+        .form-box {
+            width: 500px;
+            max-width: 90%;
+            margin: auto;
+            background-color: #0d1229;
+            border: 1px solid #292d4b;
+            border-radius: 10px;
+            padding: 22px;
+            box-shadow: 0 0 20px rgba(255, 0, 150, 0.15);
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            color: black;
+            font-size: 11px;
+            margin-bottom: 6px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #080b1c;
+            border: 1px solid #252943;
+            border-radius: 7px;
+            color: white;
+            padding: 10px;
+            margin-bottom: 13px;
+            outline: none;
+        }
+
+        textarea {
+            height: 75px;
+            resize: vertical;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #ff4fa3;
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            font-size: 11px;
+            background: linear-gradient(to right, #ff2190, #365cff);
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        /* Footer */
+footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 2px solid white;
+      color: black;
+      font-size: 15px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Jacram.com</div>
+
+        <div>
+            <a href="index.html">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+
+    <div class="contact">
+
+        <h1>Get In Touch</h1>
+
+        <p>
+            Have an idea, project, or opportunity? Drop me a message below.
+        </p>
+
+
+        <div class="form-box">
+
+            <form>
+
+                <label>Your Name</label>
+                <input type="text" placeholder="e.g. Jane Doe">
+
+
+                <label>Your Email</label>
+                <input type="email" placeholder="e.g. jane@example.com">
+
+
+                <label>Subject</label>
+                <input type="text" placeholder="Project Inquiry">
+
+
+                <label>Message</label>
+                <textarea placeholder="Tell me about your project or inquiry..."></textarea>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+        © 2026 Lyca Mancilla. All rights reserved.
+    </footer>
+
+</body>
+</html>

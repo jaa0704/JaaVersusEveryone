@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: gray;
+      color: black;
+      line-height: 1.6;
+    }
+
+    /* Header / Navigation */
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 8%;
+      border-bottom: 2px solid white;
+    }
+
+    .logo {
+      font-weight: bold;
+      color: red;
+      font-size: 25px;
+    }
+
+    .navigation {
+      width: 420px;
+      max-width: 100%;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .navigation a {
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .navigation a.active {
+      border-bottom: 2px solid black;
+      padding-bottom: 4px;
+    }
+
+    /* Main */
+    main {
+      padding: 50px 8%;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: white;
+    }
+
+    .subtitle {
+      color: black;
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    /* Picture sa kaliwa, info sa kanan */
+    .about {
+      display: flex;
+      align-items: flex-start;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .photo {
+      flex: 0 0 300px;
+    }
+
+    .photo img {
+      width: 300px;
+      height: 400px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 10px;
+      border: 4px solid white;
+    }
+
+    .info {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .info h2 {
+      font-size: 18px;
+      color: white;
+      margin-bottom: 14px;
+    }
+
+    .info p {
+      font-size: 14px;
+      color: silver;
+      margin-bottom: 12px;
+    }
+
+    /* Skill tags */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .tags span {
+      background: deepskyblue;
+      border: 1px solid sliver;
+      color: darkred;
+      padding: 4px 12px;
+      font-size: 12px;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      padding: 20px 0;
+      border-top: 2px solid white;
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Jacram.com</div>
+    <nav class="navigation">
+      <a href="home.html">Home</a>
+      <a href="about.htmls" class="active">About Me</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>My Journey So Far</h1>
+    <p class="subtitle">A little look into who I am, what I'm learning, and where I'm headed.</p>
+
+    <div class="about">
+
+      <div class="photo">
+        <img src="polo1.png" alt="Profile Photo">
+      </div>
+
+      <div class="info">
+        <div>
+          <h2>Who I Am</h2>
+          <p>
+            Hello, everyone! Welcome to my website. I'm Jarelle A. Delos Santos, a Computer Science student from
+            City College of Calamba. I'm currently a second-year student. I'm a simple person who enjoys learning new
+            things and trying new experiences. I may not know everything yet, but I'm always willing to learn and improve.
+            I believe that small progress is still progress.
+          </p>
+        </div>
+
+        <div>
+          <h2>Technical Skills</h2>
+          <p>Here are some of the primary technologies and methodologies I use:</p>
+          <div class="tags">
+            <span>HTML5 &amp; CSS3</span>
+            <span>JavaScript (ES6+)</span>
+            <span>Java</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>&copy; 2025 Jarelle A. Delos Santos. All rights reserved.</footer>
+
+</body>
+</html>
